@@ -12,7 +12,7 @@ mysqli_ssl_set(
     $conn,
     NULL,
     NULL,
-    "C:/Users/Lenovo/Downloads/isrgrootx1.pem",
+    __DIR__ . "/isrgrootx1.pem",
     NULL,
     NULL
 );
