@@ -1,9 +1,12 @@
 <?php
-  include 'includes/header.php';
-  include 'includes/navbar.php';
-  
-  include '../config/conn.php';
-  $username =  $_SESSION['username'];
+session_start();
+
+include '../config/conn.php';
+
+$username = $_SESSION['username'];
+
+include 'includes/header.php';
+include 'includes/navbar.php';
 
 ?>
 
