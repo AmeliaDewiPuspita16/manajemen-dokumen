@@ -1,9 +1,10 @@
 <?php
-  include 'includes/header.php';
-  include 'includes/navbar.php';
-  
-  include '../config/conn.php';
+session_start();
 
+include '../config/conn.php';
+
+include 'includes/header.php';
+include 'includes/navbar.php';
 ?>
 
 <!-- Begin Page Content -->
